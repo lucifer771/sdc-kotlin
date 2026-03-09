@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ================= LINEAR LAYOUT ================= -->
+        <LinearLayout
+            android:id="@+id/linearLayoutSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="12dp"
+            android:background="#E3F2FD">
+
+            <TextView
+                android:id="@+id/tvLinear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linear_text"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnLinear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linear_button"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <!-- ================= RELATIVE LAYOUT ================= -->
+        <RelativeLayout
+            android:id="@+id/relativeLayoutSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:background="#E8F5E9">
+
+            <TextView
+                android:id="@+id/tvRelative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/relative_text"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/btnRelative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/relative_button"
+                android:layout_below="@id/tvRelative"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp" />
+        </RelativeLayout>
+
+        <!-- ================= CONSTRAINT LAYOUT ================= -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:background="#FFF3E0">
+
+            <TextView
+                android:id="@+id/tvConstraint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/constraint_text"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/btnConstraint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/constraint_button"
+                app:layout_constraintTop_toBottomOf="@id/tvConstraint"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="8dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#F4F4F4"
+    android:padding="24dp">
+
+    <!-- Logo -->
+
+    <ImageView
+        android:id="@+id/dashboardLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/aizen_logo"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Name -->
+
+    <TextView
+        android:id="@+id/txtAizen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AIZEN 👑"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Dashboard Title -->
+
+    <TextView
+        android:id="@+id/txtDashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#555"/>
+
+</LinearLayout>

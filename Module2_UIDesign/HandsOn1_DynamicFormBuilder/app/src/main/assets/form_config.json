@@ -1,0 +1,27 @@
+{
+  "formTitle": "Student Registration",
+  "fields": [
+    {
+      "type": "text",
+      "label": "Full Name",
+      "hint": "Enter your name",
+      "required": true
+    },
+    {
+      "type": "email",
+      "label": "Email",
+      "hint": "Enter your email",
+      "required": true
+    },
+    {
+      "type": "dropdown",
+      "label": "Department",
+      "options": ["CSE", "ECE", "EEE", "MECH"]
+    },
+    {
+      "type": "checkbox",
+      "label": "Accept Terms",
+      "required": true
+    }
+  ]
+}

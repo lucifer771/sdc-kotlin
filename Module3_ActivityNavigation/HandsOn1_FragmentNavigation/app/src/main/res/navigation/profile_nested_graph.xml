@@ -1,0 +1,24 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profile_nested_graph"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="project.activity.fragments.ProfileFragment"
+        android:label="Profile"/>
+
+    <fragment
+        android:id="@+id/profileDetailsFragment"
+        android:name="project.activity.fragments.ProfileDetailsFragment"
+        android:label="Profile Details">
+
+        <argument
+            android:name="username"
+            app:argType="string"/>
+
+        <deepLink
+            app:uri="myapp://profile/{username}"/>
+    </fragment>
+
+</navigation>

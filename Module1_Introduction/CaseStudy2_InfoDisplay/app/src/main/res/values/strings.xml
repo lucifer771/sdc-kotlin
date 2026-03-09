@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ladakh Explorer</string>
+    <string name="label_location">INDIA • UNION TERRITORY</string>
+    <string name="title_ladakh">Ladakh</string>
+    <string name="desc_ladakh">
+        Welcome to the Land of High Passes. Ladakh is a region of stunning landscapes,
+        ancient monasteries, and a culture that feels untouched by time. Whether you are
+        visiting the serene Pangong Lake or the motorable Khardung La, Ladakh offers
+        an adventure like no other.
+    </string>
+</resources>

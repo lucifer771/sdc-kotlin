@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "options": ["London","Berlin","Paris","Madrid"],
+    "answer": 2
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Venus","Mars","Jupiter","Saturn"],
+    "answer": 1
+  },
+  {
+    "question": "What is 5 + 7?",
+    "options": ["10","11","12","13"],
+    "answer": 2
+  },
+  {
+    "question": "Who developed Android?",
+    "options": ["Google","Microsoft","Apple","IBM"],
+    "answer": 0
+  },
+  {
+    "question": "Which language is used for Android development?",
+    "options": ["Swift","Kotlin","Python","Ruby"],
+    "answer": 1
+  }
+]

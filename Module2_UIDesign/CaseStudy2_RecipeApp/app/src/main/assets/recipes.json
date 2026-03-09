@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Chicken Masala",
+    "description": "Rich and spicy Indian chicken curry cooked with aromatic spices and thick gravy.",
+    "image": "chicken_masala",
+    "prepTime": "20 mins",
+    "cookTime": "40 mins",
+    "serves": "4",
+    "ingredients": [
+      { "name": "Chicken", "quantity": "1 kg" },
+      { "name": "Onions", "quantity": "2 large" },
+      { "name": "Tomatoes", "quantity": "2 medium" },
+      { "name": "Ginger Garlic Paste", "quantity": "2 tbsp" },
+      { "name": "Red Chilli Powder", "quantity": "1 tbsp" },
+      { "name": "Garam Masala", "quantity": "1 tsp" }
+    ],
+    "steps": [
+      { "stepNumber": 1, "description": "Heat oil and sauté chopped onions until golden brown." },
+      { "stepNumber": 2, "description": "Add ginger garlic paste and cook for 1 minute." },
+      { "stepNumber": 3, "description": "Add tomatoes and cook until soft." },
+      { "stepNumber": 4, "description": "Add spices and mix well." },
+      { "stepNumber": 5, "description": "Add chicken pieces and cook for 30–40 minutes." }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Chicken Punjabi",
+    "description": "Authentic Punjabi-style chicken curry with thick, flavorful masala.",
+    "image": "chicken_punjabi",
+    "prepTime": "25 mins",
+    "cookTime": "45 mins",
+    "serves": "4",
+    "ingredients": [
+      { "name": "Chicken", "quantity": "1 kg" },
+      { "name": "Curd", "quantity": "1 cup" },
+      { "name": "Onions", "quantity": "3 medium" },
+      { "name": "Tomato Puree", "quantity": "1 cup" },
+      { "name": "Punjabi Masala", "quantity": "2 tbsp" },
+      { "name": "Butter", "quantity": "2 tbsp" }
+    ],
+    "steps": [
+      { "stepNumber": 1, "description": "Marinate chicken with curd and spices for 30 minutes." },
+      { "stepNumber": 2, "description": "Cook onions in butter until golden." },
+      { "stepNumber": 3, "description": "Add tomato puree and cook well." },
+      { "stepNumber": 4, "description": "Add marinated chicken and cook until tender." },
+      { "stepNumber": 5, "description": "Simmer for 10 minutes before serving." }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Jilebi",
+    "description": "Crispy and juicy Indian sweet soaked in sugar syrup.",
+    "image": "jilebi",
+    "prepTime": "15 mins",
+    "cookTime": "25 mins",
+    "serves": "6",
+    "ingredients": [
+      { "name": "Maida (Flour)", "quantity": "1 cup" },
+      { "name": "Corn Flour", "quantity": "2 tbsp" },
+      { "name": "Curd", "quantity": "1/2 cup" },
+      { "name": "Sugar", "quantity": "1 cup" },
+      { "name": "Cardamom Powder", "quantity": "1 tsp" },
+      { "name": "Oil", "quantity": "For frying" }
+    ],
+    "steps": [
+      { "stepNumber": 1, "description": "Prepare smooth batter using flour and curd." },
+      { "stepNumber": 2, "description": "Ferment batter for 8 hours." },
+      { "stepNumber": 3, "description": "Prepare sugar syrup with cardamom." },
+      { "stepNumber": 4, "description": "Pipe batter into hot oil in spiral shape." },
+      { "stepNumber": 5, "description": "Soak fried jilebis in warm sugar syrup." }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Panner Tacos",
+    "description": "Soft tacos filled with spicy paneer and fresh vegetables.",
+    "image": "panner_tacos",
+    "prepTime": "20 mins",
+    "cookTime": "15 mins",
+    "serves": "3",
+    "ingredients": [
+      { "name": "Paneer", "quantity": "250 g" },
+      { "name": "Taco Shells", "quantity": "6 pieces" },
+      { "name": "Capsicum", "quantity": "1 chopped" },
+      { "name": "Onion", "quantity": "1 sliced" },
+      { "name": "Taco Sauce", "quantity": "3 tbsp" },
+      { "name": "Cheese", "quantity": "1/2 cup" }
+    ],
+    "steps": [
+      { "stepNumber": 1, "description": "Cut paneer into cubes and sauté with spices." },
+      { "stepNumber": 2, "description": "Cook vegetables until slightly soft." },
+      { "stepNumber": 3, "description": "Fill taco shells with paneer mixture." },
+      { "stepNumber": 4, "description": "Top with cheese and taco sauce." },
+      { "stepNumber": 5, "description": "Serve hot and enjoy." }
+    ]
+  }
+]

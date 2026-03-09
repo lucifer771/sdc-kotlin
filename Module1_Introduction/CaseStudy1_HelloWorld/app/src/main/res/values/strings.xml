@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hello Variations</string>
+
+    <!-- LinearLayout -->
+    <string name="linear_text">Hello World - LinearLayout</string>
+    <string name="linear_button">Change Linear Text</string>
+
+    <!-- RelativeLayout -->
+    <string name="relative_text">Hello World - RelativeLayout</string>
+    <string name="relative_button">Change Relative Text</string>
+
+    <!-- ConstraintLayout -->
+    <string name="constraint_text">Hello World - ConstraintLayout</string>
+    <string name="constraint_button">Change Constraint Text</string>
+</resources>

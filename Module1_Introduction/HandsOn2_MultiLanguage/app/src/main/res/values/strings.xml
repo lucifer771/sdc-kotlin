@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Language Support App</string>
+    <string name="welcome_message">Welcome to Language Support App!</string>
+    <string name="instruction">Change your device language to see translations</string>
+    <string name="current_language_label">Current Language:</string>
+    <string name="change_language">CHANGE LANGUAGE</string>
+</resources>

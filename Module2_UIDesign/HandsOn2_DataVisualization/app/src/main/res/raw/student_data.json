@@ -1,0 +1,9 @@
+{
+  "sales": [
+    {"month": "Math", "value": 85},
+    {"month": "Physics", "value": 78},
+    {"month": "Chemistry", "value": 92},
+    {"month": "Biology", "value": 88},
+    {"month": "English", "value": 95}
+  ]
+}

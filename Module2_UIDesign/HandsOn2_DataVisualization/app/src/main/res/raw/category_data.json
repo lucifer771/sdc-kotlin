@@ -1,0 +1,9 @@
+{
+  "sales": [
+    {"month": "Electronics", "value": 250},
+    {"month": "Clothing", "value": 180},
+    {"month": "Furniture", "value": 150},
+    {"month": "Groceries", "value": 300},
+    {"month": "Sports", "value": 120}
+  ]
+}
