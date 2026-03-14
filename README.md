@@ -28,6 +28,14 @@ A collection of Android (Kotlin) projects organized by module for the Software D
 | CaseStudy1_QuizApp | Quiz App with Multiple Screens |
 | CaseStudy2_MasterDetail | Master-Detail Flow App |
 
+### Module 4: Data Storage and Networking
+| Folder | Description |
+|--------|-------------|
+| HandsOn1_OfflineFirstApp | Offline-First App with Synchronization |
+| HandsOn2_RealTimeChat | Real-Time Chat Application (Basic) |
+| CaseStudy1_BackgroundTask | Background Task for Data Updates (WorkManager) |
+| CaseStudy2_SimpleCameraApp | Simple Camera App (CameraX) |
+
 ## Tech Stack
 - **Language**: Kotlin
 - **Platform**: Android
