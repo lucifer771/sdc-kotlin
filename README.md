@@ -36,8 +36,15 @@ A collection of Android (Kotlin) projects organized by module for the Software D
 | CaseStudy1_BackgroundTask | Background Task for Data Updates (WorkManager) |
 | CaseStudy2_SimpleCameraApp | Simple Camera App (CameraX) |
 
+### Module 5: Advanced Topics and Deployment
+| Folder | Description |
+|--------|-------------|
+| HandsOn1_BackgroundTask | Background Task for Data Updates (WorkManager) |
+| CaseStudy1_SimpleCameraApp | Simple Camera App (Device Features & Permissions) |
+
 ## Tech Stack
 - **Language**: Kotlin
 - **Platform**: Android
 - **Build**: Gradle (Kotlin DSL)
 - **Min SDK**: 24+
+

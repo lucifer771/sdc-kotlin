@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+
+    android:background="@drawable/purple_gradient"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="AIZEN 👑"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+
+        android:layout_marginBottom="40dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnOneTime"
+
+        android:text="Start One-Time Update"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnPeriodic"
+
+        android:text="Start Periodic Update"
+
+        android:layout_marginTop="16dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnCancel"
+
+        android:text="Cancel Tasks"
+
+        android:layout_marginTop="16dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+
+        android:visibility="gone"
+
+        android:layout_marginTop="40dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtStatus"
+
+        android:text="Status: Waiting"
+
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+
+        android:layout_marginTop="16dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

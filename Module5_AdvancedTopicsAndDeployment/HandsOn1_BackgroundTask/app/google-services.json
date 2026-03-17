@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "300941644607",
+    "project_id": "background-app-9b1df",
+    "storage_bucket": "background-app-9b1df.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300941644607:android:14444825cb5fc6eb5e798a",
+        "android_client_info": {
+          "package_name": "project.backgroundapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqZwZG8gtF1mIZKfXymrRzlo3N8LWcWIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
